@@ -43,7 +43,14 @@ function Home() {
     <div className='container'>
       <form action>
         <h1>Controle de Estoque</h1>
-        <input placeholder='Sorvete' name='tipoSorvete' type='text' ref={inputTipoSorvete}/>
+        <select name="tipoSorvete" ref={inputTipoSorvete}>
+          <option value="">Selecione o sorvete</option>
+          <option value="Potinho">Potinho</option>
+          <option value="Picolé">Picolé</option>
+          <option value="Skimo">Skimo</option>
+          <option value="Moreninha">Moreninha</option>
+          <option value="Paleta Mexicana">Paleta Mexicana</option>
+        </select>
         <input placeholder='Sabor' name='sabor' type='text' ref={inputSabor}/>
         <input placeholder='Quantidade' name='quantidade' type='number' ref={inputQuantidade}/>
         <button type='button' onClick={createSabores}>Adicionar</button>
