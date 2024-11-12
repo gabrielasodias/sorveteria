@@ -1,10 +1,11 @@
 import './style.css'
+import Header from '../../components/header/Header'
 
 function Home() {
     return (
-        <div className="container">
-            <h1>Home</h1>
-        </div>
+        <>
+            <Header />
+        </>
     )
 }
 
