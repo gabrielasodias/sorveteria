@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
 import './style.css'
+import Header from '../../components/header/Header'
 import Trash from '../../assets/trash.svg'
 import api  from '../../services/api'
 
@@ -39,10 +40,13 @@ function Stock() {
   }, [])
 
   return (
+    <>
+    
+    <Header />
 
     <div className='container'>
       <form action>
-        <h1>Controle de Estoque</h1>
+        <h1>Controle de estoque</h1>
         <select name="tipoSorvete" ref={inputTipoSorvete}>
           <option value="">Selecione o sorvete</option>
           <option value="Potinho">Potinho</option>
@@ -71,6 +75,7 @@ function Stock() {
 
     </div>
 
+    </>
   )
 }
 

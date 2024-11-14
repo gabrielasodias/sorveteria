@@ -27,8 +27,7 @@ export default function Header() {
                     <li><a href="#">Início</a></li>
                     <li><a href="#produtos">Produtos</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="#login" className='login'>Login</a></li>
+                    <li><a href="#contato" className='contact-link'>Contato</a></li>
                 </ul>
             </nav>
         </header>
