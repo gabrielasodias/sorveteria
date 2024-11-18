@@ -6,15 +6,6 @@ header {
     padding: 15px 0px;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 .logo {
     animation: fadeIn 0.8s ease-in-out;
     display: flex;
@@ -76,7 +67,9 @@ header {
 }
 
 .contact-link:hover {
-    background-color: #f8b44f;
+    background-color: #ffffff;
+    border: 1px solid #ED8F05;
+    color: #ED8F05;
 }
 
 

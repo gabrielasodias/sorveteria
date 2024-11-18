@@ -3,27 +3,6 @@
     height: 100vh;
 }
 
-@keyframes up-down {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 .home-container {
     animation: fadeIn 0.8s ease-in-out;
     display: flex;
@@ -38,12 +17,12 @@
     flex-direction: column;
     text-align: center;
     padding-top: 150px;
-    width: 50%;
+    width: 60%;
 }
 
 .home-text h1 {
     font-family: 'Fresca', sans-serif;
-    font-size: 6.7rem;
+    font-size: 9rem;
     color: #ffffff;
     margin: 0px 0px 10px 0px; 
 }
@@ -57,12 +36,13 @@
 .home-image {
     display: flex;
     justify-content: center;
-    width: 50%;
+    padding-top: 120px;
+    width: 40%;
 }
 
 .home-image img {
     animation: up-down 5s ease-in-out infinite;
-    height: 550px;
+    height: 500px;
     width: 100%; 
     margin-right: 20px;
 }

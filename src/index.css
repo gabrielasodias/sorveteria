@@ -14,3 +14,40 @@ body {
   min-height: 100vh;
   width: 100vw; 
 }
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3s steps(40, end) infinite;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes up-down {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from { 
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

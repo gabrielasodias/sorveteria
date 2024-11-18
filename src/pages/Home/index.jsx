@@ -1,6 +1,7 @@
 import './style.css'
 import Header from '../../components/header/Header'
 import iceCream1 from '../../assets/ices/ice6.png'
+import Product from '../../components/products/Product'
 
 function Home() {
     return (
@@ -11,7 +12,7 @@ function Home() {
                 <div className='home-container'>
                     <div className='home-text'>
                         <h1>Sunny Ice Cream</h1>
-                        <h2>Esse é o sabor do verão!</h2>
+                        <h2 className='typing'>Esse é o sabor do verão!</h2>
                     </div>
                     
                     <div className='home-image'>
@@ -19,6 +20,8 @@ function Home() {
                     </div>
                 </div>
             </section>
+
+            <Product />
         </>
     )
 }
