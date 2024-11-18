@@ -2,6 +2,7 @@ import './style.css'
 import Header from '../../components/header/Header'
 import iceCream1 from '../../assets/ices/ice6.png'
 import Product from '../../components/products/Product'
+import About  from '../../components/about/About'
 
 function Home() {
     return (
@@ -22,6 +23,9 @@ function Home() {
             </section>
 
             <Product />
+
+            <About />
+            
         </>
     )
 }
