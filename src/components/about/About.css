@@ -63,6 +63,13 @@
     }
 
     .about-image {
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .about-image img {
+        height: 300px;
     }
 }

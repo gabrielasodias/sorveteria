@@ -1,5 +1,5 @@
 import './About.css'
-import iceCream0 from '../../assets/ices/ice9.png'
+import iceCream0 from '../../assets/ices/ice7.png'
 
 export default function About() {
     return (
