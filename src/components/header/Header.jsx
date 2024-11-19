@@ -24,7 +24,7 @@ export default function Header() {
 
             <nav className={`menu ${menuOpen ? "open" : "closed"}`}>
                 <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="#inicio">Início</a></li>
                     <li><a href="#produtos">Produtos</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#contato" className='contact-link'>Contato</a></li>

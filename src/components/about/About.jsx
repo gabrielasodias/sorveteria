@@ -4,7 +4,7 @@ import iceCream0 from '../../assets/ices/ice7.png'
 export default function About() {
     return (
         <>
-            <section className='about-section'>
+            <section className='about-section' id='sobre'>
                 <div className='about-text'>
                     <h1>Sobre nós</h1>
                     <h2>Conheça a nossa sorveteria</h2>

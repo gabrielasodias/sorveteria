@@ -9,7 +9,7 @@ import iceCream6 from '../../assets/ices/ice8.png'
 export default function Products() {
     return (
         <>
-            <section className='product-section'>
+            <section className='product-section' id='produtos'>
                 <div className='product-text'>
                     <h1>Produtos</h1>
                     <p>Conheça a nossa variedade de sorvetes</p>

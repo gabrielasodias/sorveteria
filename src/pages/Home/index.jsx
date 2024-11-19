@@ -10,7 +10,7 @@ function Home() {
         <>
             <Header />
 
-            <section className='home-section'>
+            <section className='home-section' id='inicio'>
                 <div className='home-container'>
                     <div className='home-text'>
                         <h1>Sunny Ice Cream</h1>

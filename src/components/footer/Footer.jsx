@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <footer className='footer'>
 
-                <div className='footer-container'>
+                <div className='footer-container' id='contato'>
                     <div className='line'>
                         <div className='contact-text'>
                                 <h1>Contato</h1>
@@ -30,7 +30,7 @@ export default function Footer() {
                     <div className='menu-footer'>
                             <nav>
                                 <ul>
-                                    <li><a href="#">Início</a></li>
+                                    <li><a href="#inicio">Início</a></li>
                                     <li><a href="#produtos">Produtos</a></li>
                                     <li><a href="#sobre">Sobre</a></li>
                                     <li><a href="#" >Área do colaborador</a></li>
