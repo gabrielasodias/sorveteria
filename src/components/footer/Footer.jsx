@@ -1,16 +1,16 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
    
     return (
-        <>
+        <>           
             <footer className='footer'>
-
                 <div className='footer-container' id='contato'>
                     <div className='line'>
                         <div className='contact-text'>
-                                <h1>Contato</h1>
-                                <p>Entre em contato conosco</p>
+                            <h1>Contato</h1>
+                            <p>Entre em contato conosco</p>
                         </div>
                         <div className='contact-container'>
                             <div className='contact-div'>
@@ -28,17 +28,16 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className='menu-footer'>
-                            <nav>
-                                <ul>
-                                    <li><a href="#inicio">Início</a></li>
-                                    <li><a href="#produtos">Produtos</a></li>
-                                    <li><a href="#sobre">Sobre</a></li>
-                                    <li><a href="#" >Área do colaborador</a></li>
-                                </ul>
-                            </nav>
+                        <nav>
+                            <ul>
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#produtos">Produtos</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><Link to="/stock">Área do colaborador</Link></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-
                 <div className='copyright'>
                     <p>© 2024 Sunny Ice Cream. Todos os direitos reservados.</p>
                 </div>
