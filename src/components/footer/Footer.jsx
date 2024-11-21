@@ -1,7 +1,13 @@
 import './Footer.css'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Footer() {
+
+    const navigate = useNavigate()
+
+    const handleColaboradorClick = () => {
+        navigate('/login');
+    };
    
     return (
         <>           
@@ -33,7 +39,7 @@ export default function Footer() {
                                 <li><a href="#inicio">Início</a></li>
                                 <li><a href="#produtos">Produtos</a></li>
                                 <li><a href="#sobre">Sobre</a></li>
-                                <li><Link to="/stock">Área do colaborador</Link></li>
+                                <li><button onClick={handleColaboradorClick}>Área do colaborador</button></li>
                             </ul>
                         </nav>
                     </div>
