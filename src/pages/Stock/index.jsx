@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
 import './style.css'
-import Header from '../../components/header/Header'
+import HeaderStock from '../../components/header_stock/HeaderStock'
 import Trash from '../../assets/trash.svg'
 import api  from '../../services/api'
 
@@ -42,7 +42,7 @@ function Stock() {
   return (
     <>
     
-    <Header />
+    <HeaderStock /> 
 
     <div className='container'>
       <form action>

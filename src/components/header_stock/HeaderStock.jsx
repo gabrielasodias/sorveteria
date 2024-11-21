@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import './Header.css'
 import Logo from '/sunny.png'
 import { Link } from 'react-router-dom'
 
-export default function Header() {
 
+function HeaderStock() {
+    
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -12,7 +12,6 @@ export default function Header() {
     }
 
     return (
-
         <header className="header">
             <div className='logo'>
                 <img src={Logo} alt="logo Sunny Ice Cream" />
@@ -25,12 +24,11 @@ export default function Header() {
 
             <nav className={`menu ${menuOpen ? "open" : "closed"}`}>
                 <ul>
-                    <li><Link to="/" href="#inicio">Início</Link></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato" className='contact-link'>Contato</a></li>
+                    <li><Link to="/" href="#inicio" className='contact-link'>Início</Link></li>
                 </ul>
             </nav>
         </header>
     )
 }
+
+export default HeaderStock
