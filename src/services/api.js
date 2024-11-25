@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://sorvetes-api.vercel.app/'
+    baseURL: 'https://sorvetes-api-production.up.railway.app/'
 })
 
 export default api
