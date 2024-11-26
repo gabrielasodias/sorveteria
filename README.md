@@ -2,10 +2,9 @@
 
 Bem-vindo ao  **Sunny Ice Cream** , uma aplicação fictícia desenvolvida com **React** para simular uma sorveteria moderna e interativa. Este projeto inclui uma página de apresentação com informações sobre os produtos, seção "Sobre" da empresa, e até uma página de login para administradores, que conecta ao sistema de estoque.
 
-
 <h2>Página Web para visualização do projeto</h2>
 
-<p> Disponível em <a>https://sorveteria-sigma.vercel.app/</a>
+<p> Disponível em <a href="https://sorveteria-sigma.vercel.app/">https://sorveteria-sigma.vercel.app/</a>
 
 ---
 
@@ -23,7 +22,7 @@ Bem-vindo ao  **Sunny Ice Cream** , uma aplicação fictícia desenvolvida com *
 
 * **React.js**
 * **CSS** (Estilização personalizada)
-* **JavaScript (ES6)**
+* **JavaScript**
 * Gerenciamento de componentes modulares com  **import/export** .
 
 ---
@@ -55,17 +54,7 @@ Bem-vindo ao  **Sunny Ice Cream** , uma aplicação fictícia desenvolvida com *
 ---
 
 
-## 🖼️ **Demonstração da Página Inicial**
-
-A página inicial apresenta:
-
-* Um **slogan animado** com digitação dinâmica.
-* Uma imagem de destaque de um sorvete.
-* Botões para navegar pelas seções.
-
----
-
-## ⚙️ **Como Executar o Projeto**
+## ⚙️ **Como Executar o Projeto no servidor local**
 
 1. **Clone o repositório** :
 
@@ -74,19 +63,19 @@ A página inicial apresenta:
    cd sunny-ice-cream  
 ```
 
-1. **Instale as dependências** :
+2. **Instale as dependências** :
 
 ```bash
    npm install  
 ```
 
-1. **Inicie o servidor local** :
+3. **Inicie o servidor local** :
 
 ```bash
    npm start  
 ```
 
-1. Acesse a aplicação em [http://localhost:3000](http://localhost:3000/).
+4. Acesse a aplicação em [http://localhost:3000](http://localhost:3000/).
 
 ---
 
