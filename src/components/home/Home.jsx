@@ -22,11 +22,11 @@ function Home() {
                 </div>
             </section>
 
-            <Product />
+            <Product id='produtos'/>
 
-            <About />
+            <About id='sobre'/>
 
-            <Footer />
+            <Footer id='contato'/>
 
         </>
     )
